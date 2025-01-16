@@ -23,6 +23,6 @@ contract Greeting {
     }
 
     function getAge() public view returns(string memory) {
-        return string(age);
+        return age;
     }
 }
